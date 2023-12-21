@@ -1,0 +1,29 @@
+.ExpenseForm {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 20px 120px;
+}
+@media (max-width: 767px) {
+  .ExpenseForm {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    text-align: center;
+  }
+}
+.ExpenseForm div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ExpenseForm div label {
+  font-weight: 800;
+  font-size: 20px;
+}
+.ExpenseForm div input {
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: 800;
+  color: rgb(155, 83, 223);
+}

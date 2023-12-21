@@ -1,0 +1,25 @@
+.ExpenseItemDate {
+  background-color: rgb(11, 31, 48);
+  color: white;
+  margin-right: 5%;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ExpenseItemDate h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+@media (max-width: 767px) {
+  .ExpenseItemDate {
+    width: 60px;
+  }
+  .ExpenseItemDate h1 {
+    font-size: 20px;
+  }
+}

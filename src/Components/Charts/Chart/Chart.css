@@ -1,0 +1,14 @@
+.Chart {
+  padding: 30px;
+  width: 100%;
+  background-color: rgb(155, 83, 223);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  row-gap: 20px;
+}
+@media (max-width: 767px) {
+  .Chart {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

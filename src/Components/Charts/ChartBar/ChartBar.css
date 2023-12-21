@@ -1,0 +1,15 @@
+.ChartBar__inner {
+  width: 40%;
+  height: 100px;
+  background-color: #777;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.ChartBar__fill {
+  width: 100%;
+  background-color: purple;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

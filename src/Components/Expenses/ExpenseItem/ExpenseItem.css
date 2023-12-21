@@ -1,0 +1,29 @@
+.ExpenseItem {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(155, 83, 223);
+  border: 5px solid purple;
+
+  align-items: center;
+  padding: 10px 1rem;
+}
+
+.ExpenseItemDescription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+@media (max-width: 767px) {
+  .ExpenseItemDate h1 {
+    font-size: 30px;
+  }
+  .ExpenseItemDescription {
+    font-size: 60%;
+  }
+}
+.ExpenseItemDescription .price {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}

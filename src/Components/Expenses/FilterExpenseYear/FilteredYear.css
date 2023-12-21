@@ -1,0 +1,19 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+.filter select {
+  padding: 20px;
+  background-color: purple;
+  color: white;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter select option {
+  color: white;
+  font: inherit;
+}
